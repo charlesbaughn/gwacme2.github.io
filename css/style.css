@@ -4,7 +4,22 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #041E42; /* GWU Blue */
+  color: #E5C601; /* GWU Buff */
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+nav a {
+  color: #E5C601;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
 .container {
@@ -12,14 +27,39 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #333333; /* Dark Gray */
+  border-radius: 12px; /* Rounded corners */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .content-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  background-color: #444444; /* Slightly lighter dark gray */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.row {
+  display: contents;
+}
+
+.row div {
+  padding: 10px;
+  background-color: #555555; /* Even lighter dark gray */
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-align: center; /* Center text horizontally */
+}
+
+.row div:hover {
+  background-color: #666666; /* Hover effect */
 }
 
 footer {
