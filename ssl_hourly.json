@@ -3,7 +3,7 @@
     "hostname": "fb-tst22-p01.ead.gwu.edu",
     "date": "2-25-2024",
     "issuer": "ACME",
-    "status": "re-issue not found"
+    "status": "re-issue not found - -"
   },
   {
     "hostname": "fb-tst22-p02.ead.gwu.edu",
